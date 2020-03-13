@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <style>
+        .container{
+            max-width:400px;
+            margin: 10px;
+        }
+
+        /* .pic{
+            padding: 10px;
+        } */
+
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <!-- 1. 사진 -->
+      <img class="pic"
+        src="http://www.businesskorea.co.kr/news/photo/202003/42208_54645_1157.png"
+        class="img-fluid"
+        alt="Responsive image"
+      />
+
+      <!-- 2. 설명 -->
+      <span>갤럭시 폰</span>
+      <span>가격: 2,000,000원/개</span>
+      <p>
+        삼성 갤럭시 Z 플립은 접히는 유리 소재를 사용한 디스플레이와 원하는
+        각도로 접을 수 있는 앞선 힌지 기술로 탄생한 새로운 형태의 폴더블입니다.
+      </p>
+
+      <!-- Input group 사용 -->
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon3">주문자 이름</span>
+        </div>
+        <input
+          type="text"
+          class="form-control"
+          id="basic-url"
+          aria-describedby="basic-addon3"
+        />
+      </div>
+
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="inputGroupSelect01">수량</label>
+        </div>
+        <select class="custom-select" id="inputGroupSelect01">
+          <option selected>--수량을 선택하세요--</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+      </div>
+
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon3">주소</span>
+        </div>
+        <input
+          type="text"
+          class="form-control"
+          id="basic-url"
+          aria-describedby="basic-addon3"
+        />
+      </div>
+
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon3">전화번호</span>
+        </div>
+        <input
+          type="text"
+          class="form-control"
+          id="basic-url"
+          aria-describedby="basic-addon3"
+        />
+      </div>
+
+      <button class="btn btn-primary" type="submit">주문하기</button>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
